@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><a href="https://link.springer.com/chapter/10.1007/978-3-031-43901-8_43">TIP: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data (ECCV 2024)</a></h1>
+<h1><a href="https://arxiv.org/abs/2407.07582">TIP: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data (ECCV 2024)</a></h1>
 
 **[Siyi Du](https://scholar.google.com.hk/citations?user=wZ4M4ecAAAAJ&hl=en&oi=ao), [Shaoming Zheng](https://scholar.google.com/citations?user=84zgYXEAAAAJ&hl=en&oi=ao),
 [Yinsong Wang](https://orcid.org/0009-0008-7288-4227), [Wenjia Bai](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=IA1QFM4AAAAJ&sortby=pubdate), [Declan P. O'Regan](https://scholar.google.com/citations?user=85u-LbAAAAAJ&hl=en&oi=ao), and [Chen Qin](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=mTWrOqHOqjoC&pagesize=80&sortby=pubdate)** 
@@ -8,7 +8,7 @@
 ![](https://komarev.com/ghpvc/?username=siyi-windTIP&label=visitors)
 ![GitHub stars](https://badgen.net/github/stars/siyi-wind/TIP)
 [![](https://img.shields.io/badge/license-Apache--2.0-blue)](#License)
-[![](https://img.shields.io/badge/arXiv-2401.01646-b31b1b.svg)](https://arxiv.org/pdf/2307.02100)
+[![](https://img.shields.io/badge/arXiv-2407.07582-b31b1b.svg)](https://arxiv.org/abs/2407.07582)
 
 </div>
 
@@ -22,6 +22,8 @@ Concact: s.du23@imperial.ac.uk (Siyi Du)
 Share us a :star: if this repository does help. 
 
 ## Updates
+[**11/07/2024**] The arXiv paper is released. 
+
 [**08/07/2024**] The code is released.
 
 ## Contents
@@ -91,7 +93,7 @@ If you use this code in your research, please consider citing:
 ```text
 @inproceedings{du2024tip,
   title={{TIP}: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data},
-  author={Du, Siyi and Wang, Yinsong and Zheng, Shaoming and Bai, Wenjia and O'Regan, Declan P. and Qin, Chen},
+  author={Du, Siyi and Zheng, Shaoming and Wang, Yinsong and Bai, Wenjia and O'Regan, Declan P. and Qin, Chen},
   booktitle={18th European Conference on Computer Vision (ECCV 2024)},
 ```
 
