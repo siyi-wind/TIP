@@ -1,4 +1,4 @@
-name: newsemi
+name: tip
 channels:
   - pytorch
   - conda-forge

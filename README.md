@@ -38,10 +38,9 @@ Share us a :star: if this repository does help.
 This code is implemented using Python 3.9.15, PyTorch 1.11.0, PyTorch-lighting 1.6.4, CUDA 11.3.1, and CuDNN 8.
 
 ```sh
-conda create -n tip python=3.9
-conda activate tip  # activate the environment and install all dependencies
 cd TIP/
 conda env create --file environment.yaml
+conda activate tip
 ```
 
 ## Data
