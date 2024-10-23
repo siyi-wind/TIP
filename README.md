@@ -49,9 +49,17 @@ Download DVM data from [here][2]
 Apply for the UKBB data [here][3]
 
 ### Preparation
+#### DVM
 1. Execute [data/create_dvm_dataset.ipynb](./data/create_dvm_dataset.ipynb) to get train, val, test datasets.
 2. Execute [data/image2numpy.ipynb](./data/image2numpy.py) to convert jpg images to numpy format for faster reading during training. 
 3. Execute [data/create_missing_mask.ipynb](./data/create_missing_mask.ipynb) to create missing masks (RVM, RFM, MIFM, LIFM) for incomplete data fine-tuning experiments.
+
+#### UKBB
+1. Execute [data/preprocess_ukbb/filter_cardiac_tabular_feature.py] to get cardiac disease related tabular features.
+2. Execute [data/preprocess_ukbb/preprocess_cardiac_table.ipynb] to preprocess filtered tabular features and generate labels.
+3. Execute [data/preprocess_ukbb/create_image_tabular_split.ipynb] to get train, val, test datasets.
+4. Execute [data/preprocess_ukbb/preprocess_cardiac_image.py] to prepare Numpy images for training
+
 
 ## Training
 
@@ -94,6 +102,7 @@ If you use this code in your research, please consider citing:
   title={{TIP}: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data},
   author={Du, Siyi and Zheng, Shaoming and Wang, Yinsong and Bai, Wenjia and O'Regan, Declan P. and Qin, Chen},
   booktitle={18th European Conference on Computer Vision (ECCV 2024)},
+  year={2024}
 ```
 
 ## Acknowledgements
