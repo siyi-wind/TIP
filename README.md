@@ -57,10 +57,10 @@ Apply for the UKBB data [here][3]
 3. Execute [data/create_missing_mask.ipynb](./data/create_missing_mask.ipynb) to create missing masks (RVM, RFM, MIFM, LIFM) for incomplete data fine-tuning experiments.
 
 #### UKBB
-1. Execute [data/preprocess_ukbb/filter_cardiac_tabular_feature.py] to get cardiac disease related tabular features.
-2. Execute [data/preprocess_ukbb/preprocess_cardiac_table.ipynb] to preprocess filtered tabular features and generate labels.
-3. Execute [data/preprocess_ukbb/create_image_tabular_split.ipynb] to get train, val, test datasets.
-4. Execute [data/preprocess_ukbb/preprocess_cardiac_image.py] to prepare Numpy images for training
+1. Execute [data/preprocess_ukbb/filter_cardiac_tabular_feature.py](./data/preprocess_ukbb/filter_cardiac_tabular_feature.py) to get cardiac disease related tabular features.
+2. Execute [data/preprocess_ukbb/preprocess_cardiac_table.ipynb](./data/preprocess_ukbb/preprocess_cardiac_table.ipynb) to preprocess filtered tabular features and generate labels.
+3. Execute [data/preprocess_ukbb/create_image_tabular_split.ipynb](./data/preprocess_ukbb/create_image_tabular_split.ipynb) to get train, val, test datasets.
+4. Execute [data/preprocess_ukbb/preprocess_cardiac_image.py](./data/preprocess_ukbb/preprocess_cardiac_image.py) to prepare Numpy images for training
 
 
 ## Training
