@@ -26,6 +26,8 @@ Share us a :star: if this repository does help.
 
 [**08/07/2024**] The code is released.
 
+[**23/10/2024**] The preprocessing code for UKBB is released.
+
 ## Contents
 - [Requirements](#requirements)
 - [Data Preparation](#data-preparation)
