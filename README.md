@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><a href="https://arxiv.org/abs/2407.07582">TIP: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data (ECCV 2024)</a></h1>
+<h1><a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-72633-0_27">TIP: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data (ECCV 2024)</a></h1>
 
 **[Siyi Du](https://scholar.google.com.hk/citations?user=wZ4M4ecAAAAJ&hl=en&oi=ao), [Shaoming Zheng](https://scholar.google.com/citations?user=84zgYXEAAAAJ&hl=en&oi=ao),
 [Yinsong Wang](https://orcid.org/0009-0008-7288-4227), [Wenjia Bai](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=IA1QFM4AAAAJ&sortby=pubdate), [Declan P. O'Regan](https://scholar.google.com/citations?user=85u-LbAAAAAJ&hl=en&oi=ao), and [Chen Qin](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=mTWrOqHOqjoC&pagesize=80&sortby=pubdate)** 
@@ -113,6 +113,6 @@ We would like to thank the following repositories for their great works:
 * [BLIP](https://github.com/salesforce/BLIP)
 
 
-[1]: https://github.com/siyi-wind
+[1]: https://arxiv.org/abs/2407.07582
 [2]: https://deepvisualmarketing.github.io/
 [3]: https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access
