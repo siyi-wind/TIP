@@ -2,7 +2,7 @@
 
 <h1><a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-72633-0_27">TIP: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data (ECCV 2024)</a></h1>
 
-**[Siyi Du](https://scholar.google.com.hk/citations?user=wZ4M4ecAAAAJ&hl=en&oi=ao), [Shaoming Zheng](https://scholar.google.com/citations?user=84zgYXEAAAAJ&hl=en&oi=ao),
+**[Siyi Du](https://scholar.google.com/citations?user=zsOt8MYAAAAJ&hl=en), [Shaoming Zheng](https://scholar.google.com/citations?user=84zgYXEAAAAJ&hl=en&oi=ao),
 [Yinsong Wang](https://orcid.org/0009-0008-7288-4227), [Wenjia Bai](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=IA1QFM4AAAAJ&sortby=pubdate), [Declan P. O'Regan](https://scholar.google.com/citations?user=85u-LbAAAAAJ&hl=en&oi=ao), and [Chen Qin](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=mTWrOqHOqjoC&pagesize=80&sortby=pubdate)** 
 
 ![](https://komarev.com/ghpvc/?username=siyi-windTIP&label=visitors)
