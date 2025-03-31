@@ -28,6 +28,8 @@ Share us a :star: if this repository does help.
 
 [**23/10/2024**] The preprocessing code for UKBB is released.
 
+[**31/03/2025**] We have a new paper accepted at CVPR 2025, which proposes a new semi-supervised tabular-image framework (STiL). Please check [this repository](https://github.com/siyi-wind/STiL) for details.
+
 ## Contents
 - [Requirements](#requirements)
 - [Data Preparation](#data-preparation)
