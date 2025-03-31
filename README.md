@@ -106,7 +106,7 @@ If you use this code in your research, please consider citing:
   title={{TIP}: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data},
   author={Du, Siyi and Zheng, Shaoming and Wang, Yinsong and Bai, Wenjia and O'Regan, Declan P. and Qin, Chen},
   booktitle={18th European Conference on Computer Vision (ECCV 2024)},
-  year={2024}
+  year={2024}}
 ```
 
 ## Acknowledgements
