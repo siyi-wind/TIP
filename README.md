@@ -54,7 +54,7 @@ Download DVM data from [here][2]
 
 Apply for the UKBB data [here][3]
 
-### Preparation
+### Data Preparation
 #### DVM
 1. Execute [data/create_dvm_dataset.ipynb](./data/create_dvm_dataset.ipynb) to get train, val, test datasets.
 2. Execute [data/image2numpy.ipynb](./data/image2numpy.py) to convert jpg images to numpy format for faster reading during training. 
@@ -67,7 +67,7 @@ Apply for the UKBB data [here][3]
 4. Execute [data/preprocess_ukbb/preprocess_cardiac_image.py](./data/preprocess_ukbb/preprocess_cardiac_image.py) to prepare Numpy images for training
 
 
-## Training
+## Training & Testing
 
 ### Pre-training & Fine-tuning
 ```sh
