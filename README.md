@@ -30,6 +30,8 @@ Share us a :star: if this repository does help.
 
 [**31/03/2025**] We have a new paper accepted at CVPR 2025, which proposes a new semi-supervised tabular-image framework (STiL). Please check [this repository](https://github.com/siyi-wind/STiL) for details.
 
+[**21/02/2026**] We have a new paper accepted at ICLR 2026, which proposes an inference-time dynamic modality selection framework (DyMo) for various missing data scenarios (whole-modality and partial-modality missingness) across multiple modalities (e.g., image, table, and text). Please check [this repository](https://github.com/siyi-wind/DyMo) for details. 
+
 ## Contents
 - [Requirements](#requirements)
 - [Data Preparation](#data-preparation)
