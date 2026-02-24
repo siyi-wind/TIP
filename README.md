@@ -36,11 +36,11 @@ Share us a :star: if this repository does help.
 ## Our Multimodal Learning Research Line
 This repository is part of our research line on multimodal learning.
 
-- **TIP (ECCV2024)**: An image-tabular pre-training framework for intra-modality missingness ([siyi-wind/TIP](https://github.com/siyi-wind/TIP))
+- **TIP (ECCV2024, this work)**: An image-tabular pre-training framework for intra-modality missingness ([siyi-wind/TIP](https://github.com/siyi-wind/TIP))
 
 - **STiL (CVPR 2025)**: A semi-supervised image-tabular framework for modality heterogeneity and limited labeled data ([siyi-wind/STiL](https://github.com/siyi-wind/STiL))
 
-- **DyMo (ICLR 2026, this work)**: An inference-time dynamic modality selection framework for missing modality ([siyi-wind/DyMo](https://github.com/siyi-wind/DyMo))
+- **DyMo (ICLR 2026)**: An inference-time dynamic modality selection framework for missing modality ([siyi-wind/DyMo](https://github.com/siyi-wind/DyMo))
 
 ## Contents
 - [Requirements](#requirements)
