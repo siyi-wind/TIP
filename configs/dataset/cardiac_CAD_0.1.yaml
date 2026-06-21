@@ -1,0 +1,57 @@
+# @package _global_
+defaults:
+ - _self_
+
+task: classification
+
+num_classes: 2
+weights:
+live_loading: True
+delete_segmentation: False
+balanced_accuracy: False
+eval_metric: auc
+data_orig:
+
+
+target: CAD
+low_data_splits: ['_0.1']
+
+# num of features
+num_cat: 26
+num_con: 49
+
+# pretrain imaging
+data_train_imaging: cardiac_train_paths_imaging.pt
+data_val_imaging: cardiac_val_paths_imaging.pt
+# pretrain tabular
+data_train_tabular: cardiac_features_train_imputed_noOH_tabular_imaging_reordered.csv
+data_val_tabular: cardiac_features_val_imputed_noOH_tabular_imaging_reordered.csv
+
+field_lengths_tabular: tabular_lengths_reordered.pt
+
+# pretrain labels
+labels_train: cardiac_labels_CAD_train.pt
+labels_val: cardiac_labels_CAD_val.pt
+
+
+# finetune tabular, image, and labels
+data_train_eval_tabular: cardiac_features_train_imputed_noOH_tabular_imaging_CAD_0.1_balanced_reordered.csv
+data_train_eval_imaging: cardiac_train_paths_imaging_CAD_0.1_balanced.pt
+labels_train_eval_imaging: cardiac_labels_CAD_0.1_train_balanced.pt
+labels_train_eval_tabular: cardiac_labels_CAD_0.1_train_balanced.pt
+
+# balanced val
+# data_val_eval_tabular: cardiac_features_val_imputed_noOH_tabular_imaging_CAD_balanced_reordered.csv
+# data_val_eval_imaging: cardiac_val_paths_imaging_CAD_balanced.pt
+# labels_val_eval_tabular: cardiac_labels_CAD_val_balanced.pt
+
+# original val
+data_val_eval_tabular: cardiac_features_val_imputed_noOH_tabular_imaging_reordered.csv
+data_val_eval_imaging: cardiac_val_paths_imaging.pt
+labels_val_eval_imaging: cardiac_labels_CAD_val.pt
+labels_val_eval_tabular: cardiac_labels_CAD_val.pt
+
+data_test_eval_tabular: cardiac_features_test_imputed_noOH_tabular_imaging_reordered.csv
+data_test_eval_imaging: cardiac_test_paths_imaging.pt
+labels_test_eval_imaging: cardiac_labels_CAD_test.pt
+labels_test_eval_tabular: cardiac_labels_CAD_test.pt

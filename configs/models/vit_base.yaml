@@ -1,0 +1,20 @@
+# @package _global_
+defaults:
+  - _self_
+
+model: vit_base
+
+imaging_pretrained: False
+imaging_pretrained_name: deit_base_patch16_224-b5f2ef4d.pth
+
+
+# DVM
+# lr: 1.e-4
+img_size: 128
+patch_size: 16
+embedding_dim: 768
+mlp_ratio: 4.0
+num_heads: 12
+depth: 12
+attention_dropout_rate: 0.0
+imaging_dropout_rate: 0.0

@@ -1,0 +1,20 @@
+# @package _global_
+defaults:
+  - _self_
+
+model: vit_small
+
+imaging_pretrained: False
+imaging_pretrained_name: deit_small_patch16_224-cd65a155.pth
+
+
+# DVM
+# lr: 1.e-4
+img_size: 128
+patch_size: 16
+embedding_dim: 384
+mlp_ratio: 4.0
+num_heads: 6
+depth: 12
+attention_dropout_rate: 0.0
+imaging_dropout_rate: 0.0
